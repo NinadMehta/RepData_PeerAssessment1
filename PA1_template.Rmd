@@ -4,14 +4,17 @@ author: Ninad Mehta
 date: 02/14/2016
 ---
 
-## load knitr library and set echo=TRUE so others can read the code.
+## Load knitr library and set echo=TRUE so others can read the code.
+```{r}
 library(knitr)
 opts_chunk$set(echo = TRUE)
+```
 
-## load the needed packages
+## Load the needed packages
+```{r}
 library(dplyr)
 library(ggplot2)
-
+```
 
 ## Loading and preprocessing the data
 ### Load the data (i.e. read.csv())
